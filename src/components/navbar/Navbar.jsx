@@ -5,9 +5,9 @@ import Logo from './Logo.png'
 export default function Navbar() {
   return (
    <div className="navbar">
-    <div className="container">
+    <div className="nav-container">
       <div className="left">
-       <img src={Logo}  alt='logo' />
+       <img className="nav-image"src={Logo}  alt='logo' />
       </div>
       <div className="right">
         <ul className='list-items'>

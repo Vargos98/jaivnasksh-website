@@ -1,0 +1,21 @@
+.header-wrapper{
+    background: url("./back.jpg");
+    background-color: black;
+    height: 50rem;
+    display: flex;
+}
+.header-container{
+    justify-content: space-between;
+    display: flex;
+    align-items: flex-end;
+}
+
+.header-image{
+    width: 30rem;
+    height: 35rem;
+    margin-left: 50rem;
+    margin-bottom: 100px;
+    border-radius: 15rem 15rem 0 0;
+    z-index: 9999;
+}
+

@@ -10,7 +10,7 @@
     top: 0;
   
 }
-.container {
+.nav-container {
     padding: 0px 50px;
     display: flex;
     align-items: center;
@@ -31,8 +31,9 @@
 
 }
 
-img{
+.nav-image{
    
+    width: 150px;
     height: 150px;
     margin-top: 10px;
     margin-right: 40px;
