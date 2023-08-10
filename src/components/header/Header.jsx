@@ -1,21 +1,15 @@
 import './header.css';
-import image from './header.jpg';
+import image from './back.jpg';
 
 export default function Header() {
   return (
-    <section className='header-wrapper'>
-      <div className="header-container">
-        <div className="header-left">
-          
-          
-        </div>
-        <div className="header-right">
-         
-          <div >
-            <img className="header-image" src={image} alt="brewery machine" />
-          </div>
-        </div>
-      </div>
-    </section>
+    <div className='head__container'>
+      
+        <h1 className='head-text'>Jaivnaksh Motto</h1>
+        <br/>
+        <p className='head-qoute'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, persp</p>
+      
+      
+    </div>
   )
 }
